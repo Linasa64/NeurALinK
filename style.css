@@ -8,16 +8,10 @@ header {
     
 }
 
-.menu{
-
-}
-
 footer{
 
-
 }
 
-.logo-iut img{ 
-    width: 2vw;
-    height: 2vw;
+*{
+    font-size : 50px;
 }
