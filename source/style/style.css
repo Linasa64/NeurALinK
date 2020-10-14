@@ -8,13 +8,14 @@
 /*Partie Header*/
 
 header {
-    background-color : #312f2f;
+    background-color : #31394d
+    ;
     text-align : center;
     width : 100%;
 }
 
 .menu button{
-    background-color: #312f2f;
+    background-color: #31394d;
     border: 0px;
     color: white;
     padding: 2vh 24px;
@@ -24,13 +25,13 @@ header {
 }
 
 .menu button:hover{
-    background-color: #353333;
+    background-color: #6f82b3;
 }
 
 /*Partie contenu*/
 
 main{
-    background-color: #091a2a;
+    background-color: #ffffff;
 }
 
 .cerveau{
@@ -50,7 +51,7 @@ main{
 }
 
 .categories{
-    color: white;
+    color: transparent;
     height: 100vh;
 }
 
@@ -87,6 +88,7 @@ main{
 #projet:hover {
     background-image: none;
     background-color: #353333;
+    color: wheat;
 }
 
 /*Partie Footer*/
@@ -94,7 +96,7 @@ main{
 
 footer{
     text-align: right;
-    background-color: #312f2f;
+    background-color: #31394d;
     bottom: 0;
     width: 100%;
     position: static;
