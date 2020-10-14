@@ -51,19 +51,43 @@ main{
 }
 
 .categories{
-    color: transparent;
+    display: flex;
     height: 100vh;
+    align-content: center;
+    justify-content: space-around;
+    background-color: rgb(225, 226, 238);
 }
 
 .categories a{
-    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-basis: 33%;
     background-repeat: no-repeat;
-    width: 30vw;
     height: 80vh;
-    text-align: center;
     margin-top: 10vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
+    z-index: 2;
+    color: transparent;
+}
+
+.texteLiens h1{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:150vh;
+    color: #31394d;
+    z-index: 1;
+}
+
+#texte1{
+    right: 77%;
+}
+
+#texte2{
+    right: 42%;
+}
+
+#texte3{
+    right: 8%;
 }
 
 #projet{
@@ -81,14 +105,22 @@ main{
 
 #futur {
     background-image: url("../img/transhumanisme.jpg");
-    background-size: 30vw;
+    background-size: 40vw;
     background-position: 48%;
 }
 
 #projet:hover {
-    background-image: none;
-    background-color: #353333;
-    color: wheat;
+    filter: opacity(20%);
+}
+
+#lies:hover {
+    filter: blur(40px);
+    filter: opacity(20%);
+}
+
+#futur:hover {
+    filter: blur(4px);
+    filter: opacity(20%);
 }
 
 /*Partie Footer*/
