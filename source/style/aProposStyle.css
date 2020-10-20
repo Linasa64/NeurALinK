@@ -3,6 +3,95 @@
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+
+/*Partie Header*/
+
+header {
+    background-color : #31394d
+    ;
+    text-align : center;
+    width : 100%;
+}
+
+.menu button{
+    background-color: #31394d;
+    border: 0px;
+    color: white;
+    padding: 2vh 24px;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+}
+
+.menu button:hover{
+    background-color: #6f82b3;
+}
+
+/*Partie contenu*/
+
+main{
+    background-color: #ffffff;
+}
+
+.cerveau{
+    height: 100vh;
+    background-image: url("../img/cerveau.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw, 98vh;
+    background-position: center top;
+    color: white;
+    text-align: center;
+}
+
+.cerveau a{
+    position: relative;
+    top: 90vh;
+    color: white;
+}
+
+.categories{
+    color: transparent;
+    height: 100vh;
+}
+
+.categories a{
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 80vh;
+    text-align: center;
+    margin-top: 10vh;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+#projet{
+    background-image: url("../img/neura.jpg");
+    background-position: 75%;
+    background-size: 60vw;
+}
+
+#lies {
+    background-image: url("../img/oeil.jpeg");
+    background-position: 48%;
+    background-size: 62vw;
+    
+}
+
+#futur {
+    background-image: url("../img/transhumanisme.jpg");
+    background-size: 30vw;
+    background-position: 48%;
+}
+
+#projet:hover {
+    background-image: none;
+    background-color: #353333;
+    color: wheat;
+}
+
+/* Partie à propos ! */
+
 .corpsapropos {
     height : 75%;
     width : 90%;
