@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.corpsapropos {
+    height : 75%;
+    width : 90%;
+}
+
+.corpsapropos li {
+    display : inline-block;
+    text-align : center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
