@@ -50,6 +50,33 @@ main{
     color: white;
 }
 
+.presentation{
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #31394d;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.presentation h1{
+    font: bold italic large serif;
+    font-size: 500%;
+    display: block;
+    position: sticky;
+    line-height: 350%;
+    
+}
+
+.presentation p{
+    display: fixed;
+    position: relative;
+    font-size: 200%;
+    
+}
+
 .categories{
     display: flex;
     height: 100vh;
@@ -73,7 +100,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top:150vh;
+    top:250vh;
     color: #31394d;
     z-index: 1;
 }
