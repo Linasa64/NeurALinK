@@ -45,8 +45,8 @@ main{
 }
 .cerveau h1{
     text-align: left;
-    color: Black; 
-    padding: 10% 10% 0% 2%;
+    color: rgb(66, 63, 63);
+    padding: 35% 12% 0% 8%;
 }
 
 .cerveau a{
