@@ -83,7 +83,7 @@ main{
     margin-top: 10vh;
     margin-right: 2.5vh;
     margin-left: 2.5vh;
-    color: none;
+    
     
 }
 
@@ -94,6 +94,7 @@ main{
     background-size: 60vw;
     color: transparent;
     text-decoration:none; 
+    background-repeat: no-repeat;
 }
 
 
@@ -102,6 +103,7 @@ main{
     margin-top: 10vh;
     margin-right: 2.5vh;
     margin-left: 2.5vh;
+    
 }
 
 .article2 a{
@@ -110,12 +112,14 @@ main{
     background-size: 62vw;
     color: transparent;
     text-decoration:none; 
+    background-repeat: no-repeat;
 }
 
 .article3{
     margin-top: 10vh;
     margin-right: 2.5vh;
     margin-left: 2.5vh;
+    
 }
 
 .article3 a{
@@ -124,6 +128,7 @@ main{
     background-position: 48%;
     color: transparent;
     text-decoration:none; 
+    background-repeat: no-repeat;
 }
 
 .article1 a:hover {
