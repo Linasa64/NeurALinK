@@ -27,9 +27,64 @@ header {
 .menu button:hover{
     background-color: #6f82b3;
 }
+
+/*partie body*/
+.cerveau{
+    height: 20vh;
+    background-image: url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw, 98vh;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.container{
+    margin-left: 5%;
+	display: inline-flex;
+}
+
+.side{
+    width: 50%;
+	height: 500px;
+    background-color:white;
+}
+
+.texte{
+    width: 100%;
+    background-color: white;
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 300%;
+    font-style: normal;
+}
+.soustitre {
+    font-weight: normal;
+    font-size: 150%;
+    font-style: normal;
+}
+.article{
+    display: fixed;
+    position: relative;
+    font-size: 100%;
+}
+.second ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    width: 180px;
+    color: transparent;
+}
+.second li{
+     position: relative;
+}
+.second a{
+    display:block;
+    text-decoration: none;
+    color: #000;
+}
 /*Partie Footer*/
-
-
 footer{
     text-align: right;
     background-color: #31394d;
