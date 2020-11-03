@@ -43,15 +43,18 @@ main{
     color: white;
     text-align: center;
 }
-.cerveau p{
+.cerveau h1{
     text-align: left;
-    color: Black; 
-    font-size: 40%;
+    color: rgb(88, 87, 87);
+    padding: 35% 12% 0% 8%;
+    font-style: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xxx-large;
 }
 
 .cerveau a{
     position: relative;
-    top: 90vh;
+    top: 17vh;
     color: white;
 }
 
@@ -83,6 +86,8 @@ main{
     margin-top: 10vh;
     margin-right: 2.5vh;
     margin-left: 2.5vh;
+    color: none;
+    
 }
 
 .article1 a{
@@ -90,14 +95,11 @@ main{
     background-image: url("../img/neura.jpg");
     background-position: 75%;
     background-size: 60vw;
+    color: transparent;
+    text-decoration:none; 
 }
 
-.article1 p{
-    
-   
-    font-size: 20px ;
-    color: #31394d;
-}
+
 
 .article2{
     margin-top: 10vh;
@@ -109,6 +111,8 @@ main{
     background-image: url("../img/oeil.jpeg");
     background-position: 48%;
     background-size: 62vw;
+    color: transparent;
+    text-decoration:none; 
 }
 
 .article3{
@@ -121,22 +125,31 @@ main{
     background-image: url("../img/transhumanisme.jpg");
     background-size: 30vw;
     background-position: 48%;
+    color: transparent;
+    text-decoration:none; 
 }
 
 .article1 a:hover {
-
-    filter: blur(6px);
+    filter: blur(4px);
+    opacity: .5;
+    background-image: transparent;
+    background-color: #353333;
     color: wheat;
-
 }
 
+
+
 .article2 a:hover {
-    background-image: none;
+    filter: blur(4px);
+    opacity: .5;
+    background-image: transparent ;
     background-color: #353333;
     color: wheat;
 }
 .article3 a:hover {
-    background-image: none;
+    filter: blur(4px);
+    opacity: .5;
+    background-image: transparent ;
     background-color: #353333;
     color: wheat;
 }
