@@ -36,9 +36,9 @@ main{
 
 .cerveau{
     height: 100vh;
-    background-image: url("../img/neuraAcc.jpg");
+    background-image: url("../img/neuraOriginal.jpg");
     background-repeat: no-repeat;
-    background-size: 80vw, 98vh;
+    background-size: 100vw, 98vh;
     background-position: center top;
     color: white;
     text-align: center;
