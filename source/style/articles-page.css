@@ -58,6 +58,8 @@ main{
     color: white;
 }
 
+
+/*
 .categories{
 
     display: flex;
@@ -157,9 +159,35 @@ main{
     background-color: #353333;
     color: wheat;
 }
+*/
 
+.article1 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: left;
 
+  }
+.article1 a{
+    text-decoration: none;
+}
+.article1:hover{
+    background-color: rgb(216, 216, 216);
+    
+}
+.article1 img{
+    width: 20vw;
+    margin-right: 5vw;
+}
 
+.article1 h1{
+    text-align: left;
+}
 
 
 
