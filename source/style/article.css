@@ -39,19 +39,23 @@ header {
     text-align: center;
 }
 .container{
+    margin-top: 5%;
     margin-left: 5%;
 	display: inline-flex;
 }
-
+.container > div{
+    margin: 5%;
+}
 .side{
     width: 50%;
 	height: 500px;
-    background-color:white;
+    background-color:rgb(219, 127, 127);
+    flex-wrap: wrap;
 }
 
 .texte{
     width: 100%;
-    background-color: white;
+    background-color: rgb(235, 215, 104);
 }
 
 .titre{
