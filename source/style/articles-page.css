@@ -74,9 +74,12 @@ main{
   }
 
 
-.article1:hover{
+.article1 p{
+    text-decoration: none;
+}
+  .article1:hover{
     background-color: rgb(216, 216, 216);
-    
+    text-decoration: underline rgb(216, 216, 216);
     
 }
 .article1 img{
