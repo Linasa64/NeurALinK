@@ -60,7 +60,7 @@ main{
 
 
 
-.article1 {
+.article {
     margin-top: 5vh;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -70,25 +70,27 @@ main{
     color: rgb(0, 0, 0);
     text-align: left;   
     text-decoration: none;
+    padding: 0 2% 0 0;
     
   }
 
 
-.article1 p{
+.article p{
     text-decoration: none;
 }
-  .article1:hover{
+.article:hover{
     background-color: rgb(216, 216, 216);
     text-decoration: underline rgb(216, 216, 216);
     
 }
-.article1 img{
+.article img{
     width: 20vw;
     margin-right: 5vw;
 }
 
-.article1 h1{
+.article h1{
     text-align: left;
+    
 }
 
 
