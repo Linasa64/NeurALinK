@@ -48,8 +48,9 @@ body{
     width: 30%;
 	height: 500px;
     background-color: rgb(149, 161, 196);
+    filter: opacity(90%);
     flex-wrap: wrap;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 3% 3% 3% 3%;
 
 }
 .side a{
@@ -61,7 +62,7 @@ body{
     color: transparent;
 }
 .side img{
-    height: 30%;
+    height: 27%;
     max-height: 100%;
     width: 50%;
     position: center;
@@ -76,16 +77,22 @@ body{
     color: #31394d;
     z-index: 1;
 }
-.side :hover{
+.side a :hover{
     filter: opacity(20%);
     filter: blur(2px);
 }
-
+.side h1{
+    text-align: center;
+    font-size: 100%;
+    font-family: cursive;
+    font-style: normal;
+}
 .texte{
     width: 100%;
     background-color: rgb(149, 161, 196);
+    filter: opacity(90%);
     text-align: center;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 3% 3% 3% 3%;
 }
 .textepetit {
     text-align: center;
