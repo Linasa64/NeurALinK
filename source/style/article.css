@@ -24,25 +24,22 @@ header {
     width: 25%;
 }
 
+
 .menu button:hover{
     background-color: #6f82b3;
 }
 
 /*partie body*/
-.cerveau{
-    height: 100vh;
-    background-image: url("../img/stylé.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw, 98vh;
-    background-position: center top;
-    color: white;
-    text-align: center;
+body{
+    background: url(../img/cerveau.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    filter: opacity(5);
 }
-
 .container{
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 5%;
-	display: inline-flex;
+    display: inline-flex;
 }
 .container > div{
     margin: 2%;
@@ -50,8 +47,10 @@ header {
 .side{
     width: 30%;
 	height: 500px;
-    background-color: rgb(185, 194, 221);
+    background-color: rgb(149, 161, 196);
     flex-wrap: wrap;
+    border-radius: 10% 10% 10% 10%;
+
 }
 .side a{
     margin-top: center;
@@ -67,6 +66,7 @@ header {
     width: 50%;
     position: center;
     margin-left: 5vw;
+    border-radius: 20% 20% 20% 20%;
 }
 .texteside{
     display: flex;
@@ -83,8 +83,9 @@ header {
 
 .texte{
     width: 100%;
-    background-color:  rgb(185, 194, 221);
+    background-color: rgb(149, 161, 196);
     text-align: center;
+    border-radius: 10% 10% 10% 10%;
 }
 .textepetit {
     text-align: center;
@@ -95,6 +96,7 @@ header {
 .texte img{
     height: 40%;
     width: 30%;
+    border-radius: 20% 20% 20% 20%;
 }
 .titre{
     font-weight: bold;
