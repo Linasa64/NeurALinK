@@ -31,7 +31,7 @@ header {
 /*partie body*/
 .cerveau{
     height: 100vh;
-    background-image: url("../img/cerveau.jpg");
+    background-image: url("../img/stylé.jpg");
     background-repeat: no-repeat;
     background-size: 100vw, 98vh;
     background-position: center top;
@@ -40,43 +40,59 @@ header {
 }
 
 .container{
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 1%;
+    margin-left: 3%;
 	display: inline-flex;
 }
 .container > div{
     margin: 2%;
 }
 .side{
-    width: 50%;
+    width: 30%;
 	height: 500px;
     background-color: rgb(228, 219, 167);
     flex-wrap: wrap;
 }
 .side a{
-    position: relative;
-    +
+    margin-top: center;
+    position: center;
     flex-basis:10%;
     background-repeat: no-repeat;
-    
-    margin-top: 1%;
     z-index: 2;
     color: transparent;
 }
 .side img{
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+    height: 30%;
     max-height: 100%;
     width: 50%;
+    position: center;
+    margin-left: 5vw;
 }
+.texteside{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:250vh;
+    color: #31394d;
+    z-index: 1;
+}
+
 
 .texte{
     width: 100%;
     background-color: rgb(228, 219, 167);
     text-align: center;
 }
-
+.textepetit {
+    text-align: center;
+    font-size: 70%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texte img{
+    height: 40%;
+    width: 30%;
+}
 .titre{
     font-weight: bold;
     font-size: 300%;
