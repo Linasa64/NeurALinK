@@ -120,15 +120,17 @@ footer p, a{
     width : 100%;
     justify-content:space-around;
 }
+.corpsapropos h2 {
+    text-align: center;
+}
 
 .corpsapropos .a {
     flex-direction: row;
     display:flex;
     height:87vh;
     width:70%;
-    
-    
-
+    background-color: grey;
+    flex-wrap: wrap;
 }
 .corpsapropos .b {
     align-self: flex-end;
@@ -136,6 +138,5 @@ footer p, a{
     flex-direction: column;
     align-items: flex-start;
     height:87vh;
-    width:25%;
-    
+    width:25%;   
 }
