@@ -30,64 +30,71 @@ header {
 
 /*partie body*/
 .cerveau{
-    height: 20vh;
-    background-image: url("../img/cover.jpg");
+    height: 100vh;
+    background-image: url("../img/cerveau.jpg");
     background-repeat: no-repeat;
     background-size: 100vw, 98vh;
-    background-position: center;
+    background-position: center top;
     color: white;
     text-align: center;
 }
+
 .container{
     margin-top: 5%;
     margin-left: 5%;
 	display: inline-flex;
 }
 .container > div{
-    margin: 5%;
+    margin: 2%;
 }
 .side{
     width: 50%;
 	height: 500px;
-    background-color:rgb(219, 127, 127);
+    background-color: rgb(228, 219, 167);
     flex-wrap: wrap;
+}
+.side a{
+    position: relative;
+    +
+    flex-basis:10%;
+    background-repeat: no-repeat;
+    
+    margin-top: 1%;
+    z-index: 2;
+    color: transparent;
+}
+.side img{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 100%;
+    width: 50%;
 }
 
 .texte{
     width: 100%;
-    background-color: rgb(235, 215, 104);
+    background-color: rgb(228, 219, 167);
+    text-align: center;
 }
 
 .titre{
     font-weight: bold;
     font-size: 300%;
     font-style: normal;
-}
+    font-family: cursive;
+}   
 .soustitre {
     font-weight: normal;
-    font-size: 150%;
-    font-style: normal;
+    font-size: 120%;
+    font-style: inherit;
+    font-variant: initial ;
 }
 .article{
     display: fixed;
     position: relative;
     font-size: 100%;
 }
-.second ul{
-    padding:0;
-    margin:0;
-    list-style:none;
-    width: 180px;
-    color: transparent;
-}
-.second li{
-     position: relative;
-}
-.second a{
-    display:block;
-    text-decoration: none;
-    color: #000;
-}
+
 /*Partie Footer*/
 footer{
     text-align: right;
@@ -100,8 +107,6 @@ footer{
     background-position: 99%;
     background-size: 8vh;
 }
-
-
 
 footer p, a{
     text-align: center;
