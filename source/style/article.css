@@ -40,8 +40,8 @@ header {
 }
 
 .container{
-    margin-top: 1%;
-    margin-left: 3%;
+    margin-top: 5%;
+    margin-left: 5%;
 	display: inline-flex;
 }
 .container > div{
@@ -50,7 +50,7 @@ header {
 .side{
     width: 30%;
 	height: 500px;
-    background-color: rgb(228, 219, 167);
+    background-color: rgb(185, 194, 221);
     flex-wrap: wrap;
 }
 .side a{
@@ -76,11 +76,14 @@ header {
     color: #31394d;
     z-index: 1;
 }
-
+.side :hover{
+    filter: opacity(20%);
+    filter: blur(2px);
+}
 
 .texte{
     width: 100%;
-    background-color: rgb(228, 219, 167);
+    background-color:  rgb(185, 194, 221);
     text-align: center;
 }
 .textepetit {
