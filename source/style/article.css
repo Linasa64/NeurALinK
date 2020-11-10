@@ -106,14 +106,22 @@ header {
     width: 100%;
     background-color: rgb(233, 222, 210);
     filter: opacity(90%);
-    text-align: center;
+    text-align: justify;
     padding-left: 2vw;
     padding-right: 2vw;
+}
+
+.texte h1, h4{
+    text-align: center;
 }
 
 .texte h3{
     margin-top: 1vh;
     margin-bottom: 2vh;
+}
+
+.texte p{
+    text-indent: 5%;
 }
 
 .textepetit {
@@ -129,9 +137,10 @@ header {
 
 .texte img{
     width: 70%;
+    margin-left: 15%;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 10% 10% 10% 10%;;
 }
 
 .videoYT {
