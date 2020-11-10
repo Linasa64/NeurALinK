@@ -47,14 +47,9 @@ header {
 }
 
 /*partie body*/
-body{
-    background: url(../img/cerveau.jpg) no-repeat;
-    height: 100%;
-    width: 100%;
-    filter: opacity(5);
-}
+
 .container{
-    margin-top: 6%;
+    margin-top: 1vh;
     margin-left: 5%;
     display: inline-flex;
 }
@@ -66,7 +61,7 @@ body{
     padding-bottom: 2vh;
     width: 30%;
 	height: 30vw;
-    background-color: rgb(149, 161, 196);
+    background-color: rgb(233, 222, 210);
     filter: opacity(90%);
     flex-wrap: wrap;
     border-radius: 3% 3% 3% 3%;
@@ -105,7 +100,7 @@ body{
 }
 .texte{
     width: 100%;
-    background-color: rgb(149, 161, 196);
+    background-color: rgb(233, 222, 210);
     filter: opacity(90%);
     text-align: center;
     border-radius: 3% 3% 3% 3%;
@@ -124,6 +119,18 @@ body{
     margin-bottom: 1vh;
     border-radius: 20% 20% 20% 20%;
 }
+
+.videoYT {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.videoYT iframe{
+    width: 60vw;
+    height: 70vh;
+}
+
 .titre{
     font-weight: bold;
     font-size: 300%;
