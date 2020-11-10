@@ -64,8 +64,6 @@ header {
     background-color: rgb(233, 222, 210);
     filter: opacity(90%);
     flex-wrap: wrap;
-    border-radius: 3% 3% 3% 3%;
-
 }
 .side a{
     margin-top: center;
@@ -75,6 +73,12 @@ header {
     z-index: 2;
     color: transparent;
 }
+
+.side h3 {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
 .side img{
     width: 60%;
     margin-left: 3.5vw;
@@ -103,21 +107,31 @@ header {
     background-color: rgb(233, 222, 210);
     filter: opacity(90%);
     text-align: center;
-    border-radius: 3% 3% 3% 3%;
     padding-left: 2vw;
     padding-right: 2vw;
 }
+
+.texte h3{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
 .textepetit {
     text-align: center;
     font-size: 70%;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#lienParagraphe {
+    color: black;
+}
+
 .texte img{
-    width: 40%;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    border-radius: 20% 20% 20% 20%;
+    width: 70%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 10% 10% 10% 10%;
 }
 
 .videoYT {
