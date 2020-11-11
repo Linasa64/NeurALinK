@@ -184,6 +184,33 @@ header {
     font-size: 100%;
 }
 
+table {
+    table-layout: fixed;
+    width: 89%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+}
+
+table caption {
+    font-style: italic;
+    margin-bottom: 1vh;
+    background-color: lightgray;
+}
+
+table th, td {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+table th {
+    background-color: #3f4961;
+    color: white;
+}
+
 /*Partie Footer*/
 footer{
     text-align: right;
