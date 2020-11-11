@@ -180,7 +180,6 @@ header {
     font-variant: initial;
 }
 .article{
-    display: fixed;
     position: relative;
     font-size: 100%;
 }
