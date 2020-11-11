@@ -8,10 +8,11 @@
 /*Partie Header*/
 
 header {
-    background-color : #31394d
-    ;
+    position: fixed;
+    background-color : #31394d;
     text-align : center;
     width : 100%;
+    z-index: 4;
 }
 
 .menu button{
@@ -22,12 +23,14 @@ header {
     cursor: pointer;
     float: left;
     width: 24%;
+    z-index: 4;
 }
-
 
 .menu button:hover{
     background-color: #6f82b3;
+    z-index: 4;
 }
+
 .home a{
     display: flex;
     position: relative;
@@ -40,6 +43,7 @@ header {
     width: 4%;
     height: 6.2vh;
     background-position: center;
+    z-index: 4;
 }
 
 .home a:hover{
@@ -49,7 +53,7 @@ header {
 /*partie body*/
 
 .container{
-    margin-top: 1vh;
+    margin-top: 5vh;
     margin-left: 5%;
     display: inline-flex;
 }
@@ -140,7 +144,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#lienParagraphe {
+.texte a {
     color: black;
 }
 
