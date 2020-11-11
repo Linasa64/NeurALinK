@@ -3,14 +3,32 @@
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-
-/*Partie Header*/
-
 header {
-    background-color : #31394d
-    ;
+    position: fixed;
+    background-color : #31394d;
     text-align : center;
     width : 100%;
+    z-index: 4;
+}
+
+.home a{
+    display: flex;
+    position: relative;
+    float: left;
+    background-color: #cec6b2;
+    background-image: url("../img/homeLogo.png");
+    background-size: 6.3vh;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    width: 4%;
+    height: 6.2vh;
+    background-position: center;
+    z-index: 4;
+}
+
+
+.home a:hover{
+    background-color: #907d4c;
 }
 
 .menu button{
@@ -20,75 +38,88 @@ header {
     padding: 2vh 24px;
     cursor: pointer;
     float: left;
-    width: 25%;
+    width: 24%;
+    height: 6.2vh;
+    z-index: 4;
 }
 
 .menu button:hover{
     background-color: #6f82b3;
+    z-index: 4;
+}
+/* Partie à propos ! */
+
+.corpsapropos {
+    display : flex;
 }
 
-/*Partie contenu*/
-
-main{
-    background-color: #ffffff;
-}
-
-.cerveau{
-    height: 100vh;
-    background-image: url("../img/cerveau.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw, 98vh;
-    background-position: center top;
-    color: white;
-    text-align: center;
-}
-
-.cerveau a{
+.a {
+    flex: 1;
     position: relative;
-    top: 90vh;
-    color: white;
+    display:flex;
+    margin-top: 9vh;
+    margin-bottom: 3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgb(231, 224, 214);
+    flex-wrap: wrap;
 }
 
-.categories{
-    color: transparent;
-    height: 100vh;
+.a h1, h2, h3, p {
+    position: relative;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: justify;
 }
 
-.categories a{
-    display: inline-block;
-    background-repeat: no-repeat;
-    width: 30vw;
-    height: 80vh;
+
+.a ul {
+    position: relative;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+}
+
+.a h1{
+    margin-bottom: 3vh;
     text-align: center;
-    margin-top: 10vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
+    width: 100%;
 }
 
-#projet{
-    background-image: url("../img/neura.jpg");
-    background-position: 75%;
-    background-size: 60vw;
+.a h3{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
-#lies {
-    background-image: url("../img/oeil.jpeg");
-    background-position: 48%;
-    background-size: 62vw;
-    
+.leGroupe{
+    margin-top: 3vh;
+    margin-left:5%;
 }
 
-#futur {
-    background-image: url("../img/transhumanisme.jpg");
-    background-size: 30vw;
-    background-position: 48%;
+.trombino{
+    width: 18vw;
 }
 
-#projet:hover {
-    background-image: none;
-    background-color: #353333;
-    color: wheat;
+.trombino img{
+    width: 18vw;
+    min-width: 300px;
 }
+
+.nomPrenom {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    float: left;
+    width: 18vw;
+    min-width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 
 /*Partie Footer*/
 
@@ -106,37 +137,13 @@ footer{
 }
 
 
+
 footer p, a{
     text-align: center;
     color : white;
 }
 
-/* Partie à propos ! */
 
-.corpsapropos {
-    flex-direction: row;
-    display : flex;
-    height :75%;
-    width : 100%;
-    justify-content:space-around;
-}
-.corpsapropos h2 {
-    text-align: center;
-}
-
-.corpsapropos .a {
-    flex-direction: row;
-    display:flex;
-    height:87vh;
-    width:70%;
-    background-color: grey;
-    flex-wrap: wrap;
-}
-.corpsapropos .b {
-    align-self: flex-end;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height:87vh;
-    width:25%;   
+.logo-iut img{ 
+    width: 10vh;
 }
