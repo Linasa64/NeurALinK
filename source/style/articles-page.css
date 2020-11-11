@@ -21,11 +21,29 @@ header {
     padding: 2vh 24px;
     cursor: pointer;
     float: left;
-    width: 25%;
+    width: 24%;
 }
 
 .menu button:hover{
     background-color: #6f82b3;
+}
+
+.home a{
+    display: flex;
+    position: relative;
+    float: left;
+    background-color: #cec6b2;
+    background-image: url(../img/homeLogo.png);
+    background-size: 6.3vh;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    width: 4%;
+    height: 6.2vh;
+    background-position: center;
+}
+
+.home a:hover{
+    background-color: #907d4c;
 }
 
 /*Partie contenu*/
@@ -36,113 +54,65 @@ main{
 
 .cerveau{
     height: 100vh;
-    background-image: url("../img/neura.jpg");
+    background-image: url("../img/neuraOriginal.jpg");
     background-repeat: no-repeat;
     background-size: 100vw, 98vh;
     background-position: center top;
     color: white;
     text-align: center;
 }
-.cerveau p{
+.cerveau h1{
     text-align: left;
-    color: Black; 
-    font-size: 40%;
+    color: rgb(88, 87, 87);
+    padding: 35% 12% 0% 8%;
+    font-style: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vh;
 }
 
 .cerveau a{
     position: relative;
-    top: 90vh;
+    top: 17vh;
     color: white;
 }
 
-.categories{
 
+
+.article {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
     display: flex;
-    align-content: stretch;
-    justify-content: space-around;
-    background-repeat: no-repeat;
-    color: transparent;
-    height: 100vh;
-}
-
-.categories img{
-    background-repeat: no-repeat;
-}
-
-.categories a{
-    display: inline-block;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    text-align: left;   
+    text-decoration: none;
+    padding: 0 2% 0 0;
     
-    width: 30vw;
-    height: 80vh;
-    text-align: center;
+  }
+
+
+.article p{
+    text-decoration: none;
+    font-size: 2vh;
+}
+.article:hover{
+    background-color: rgb(216, 216, 216);
+    text-decoration: underline rgb(216, 216, 216);
     
 }
-
-
-.article1{
-    margin-top: 10vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
+.article img{
+    width: 20vw;
+    margin-right: 5vw;
+    margin-bottom: -0.8%;
 }
 
-.article1 a{
+.article h1{
+    text-align: left;
+    font-size: 5vh;
     
-    background-image: url("../img/neura.jpg");
-    background-position: 75%;
-    background-size: 60vw;
 }
-
-.article1 p{
-    
-   
-    font-size: 20px ;
-    color: #31394d;
-}
-
-.article2{
-    margin-top: 10vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
-}
-
-.article2 a{
-    background-image: url("../img/oeil.jpeg");
-    background-position: 48%;
-    background-size: 62vw;
-}
-
-.article3{
-    margin-top: 10vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
-}
-
-.article3 a{
-    background-image: url("../img/transhumanisme.jpg");
-    background-size: 30vw;
-    background-position: 48%;
-}
-
-.article1 a:hover {
-
-    filter: blur(6px);
-    color: wheat;
-
-}
-
-.article2 a:hover {
-    background-image: none;
-    background-color: #353333;
-    color: wheat;
-}
-.article3 a:hover {
-    background-image: none;
-    background-color: #353333;
-    color: wheat;
-}
-
-
-
 
 
 
