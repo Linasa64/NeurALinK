@@ -63,7 +63,7 @@ main{
 }
 .banniere h1{
     text-align: left;
-    color: rgb(179, 179, 179);
+    color: rgb(212, 212, 212);
     padding: 35% 12% 0% 8%;
     font-style: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -79,6 +79,41 @@ main{
 
 
 
+.article {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    text-align: left;   
+    text-decoration: none;
+    padding: 0 2% 0 0;
+    
+  }
+
+
+.article p{
+    text-decoration: none;
+    font-size: 2vh;
+}
+.article:hover{
+    background-color: rgb(216, 216, 216);
+    text-decoration: underline rgb(216, 216, 216);
+    
+}
+.article img{
+    width: 20vw;
+    margin-right: 5vw;
+    margin-bottom: -0.8%;
+}
+
+.article h1{
+    text-align: left;
+    font-size: 5vh;
+    
+}
 
 
 /*Partie Footer*/
