@@ -52,7 +52,7 @@ main{
     background-color: #ffffff;
 }
 
-.cerveau{
+.banniere{
     height: 100vh;
     background-image: url("../img/neuraOriginal.jpg");
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ main{
     color: white;
     text-align: center;
 }
-.cerveau h1{
+.banniere h1{
     text-align: left;
     color: rgb(88, 87, 87);
     padding: 35% 12% 0% 8%;
@@ -70,13 +70,30 @@ main{
     font-size: 8vh;
 }
 
-.cerveau a{
+.banniere a{
     position: relative;
     top: 17vh;
     color: white;
 }
 
+.intro{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 234, 241);
+    color: rgb(0, 0, 0);
+    text-align: left;   
+    text-decoration: none;
+    padding: 2% 2% 2% 0;
+    font-size: 2.5vh;
+}
 
+.intro p{
+    margin-left: 2%;
+}
 
 .article {
     margin-top: 5vh;
