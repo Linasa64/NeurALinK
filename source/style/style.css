@@ -137,7 +137,15 @@ et priorité par rapport aux autres éléments (z-index)*/
     display: flex;
     position: relative;
     font-size: 2vw;
-    
+    text-align: justify;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+#problematique{
+    margin-top: 4vh;
+    text-align: center;
+    font-style: italic;
 }
 
 .categories{
