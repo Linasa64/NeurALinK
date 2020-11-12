@@ -76,7 +76,7 @@ header {
     text-align: center;
 }
 
-#art1, #ethique, #appliDirectes, #neura, #brasBio, #drone {
+#art1, #ethique, #appliDirectes, #neura, #brasBio, #drone, #inegalite {
     display: inline-block;
     margin-top: 2vh;
     width: 15vw;
@@ -123,6 +123,10 @@ header {
 
 #drone {
     background-image: url("../img/article1-projet.jpg");
+}
+
+#inegalite {
+    background-image: url("../img/futur1.jpg");
 }
 
 .texte {
