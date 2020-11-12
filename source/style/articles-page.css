@@ -80,7 +80,7 @@ main {
 /*Partie banniere de la page Projet lies*/
 .banniere1 {
     height: 100vh;
-    background-image: url("../img/neuraOriginal.jpg");
+    background-image: url("../img/drone.jpg");
     background-repeat: no-repeat;
     background-size: 100vw, 98vh;
     background-position: center top;
@@ -90,7 +90,7 @@ main {
 
 .banniere1 h1 {
     text-align: left;
-    color: rgb(88, 87, 87);
+    color: rgb(212, 212, 212);
     padding: 35% 12% 0% 8%;
     font-style: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
