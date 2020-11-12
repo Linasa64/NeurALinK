@@ -63,7 +63,7 @@ header {
     margin-right: 10vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color: rgb(231, 224, 214);
+    background-color: rgb(234, 234, 241);
     flex-wrap: wrap;
 }
 
@@ -116,6 +116,12 @@ header {
     min-width: 300px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+#logoContenu {
+    width: 30%;
+    margin-top: 5vh;
+    margin-left: 30vw;
 }
 
 /*Partie Footer*/
