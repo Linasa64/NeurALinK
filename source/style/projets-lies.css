@@ -90,6 +90,7 @@ main{
     text-decoration: none;
     padding: 2% 2% 2% 0;
     font-size: 2.5vh;
+    text-align: justify;
 }
 
 .intro p{
