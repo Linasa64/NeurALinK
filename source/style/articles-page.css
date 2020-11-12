@@ -51,6 +51,7 @@ main {
     background-color: #ffffff;
 }
 
+/*Partie banniere de la page Projet*/
 .banniere {
     height: 100vh;
     background-image: url("../img/neuraOriginal.jpg");
@@ -75,6 +76,60 @@ main {
     top: 17vh;
     color: white;
 }
+
+/*Partie banniere de la page Projet lies*/
+.banniere1 {
+    height: 100vh;
+    background-image: url("../img/drone.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw, 98vh;
+    background-position: center top;
+    color: white;
+    text-align: center;
+}
+
+.banniere1 h1 {
+    text-align: left;
+    color: rgb(212, 212, 212);
+    padding: 35% 12% 0% 8%;
+    font-style: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vh;
+}
+
+.banniere1 a {
+    position: relative;
+    top: 17vh;
+    color: white;
+}
+
+/*Partie banniere de la page Futur*/
+.banniere2 {
+    height: 100vh;
+    background-image: url("../img/futur.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw, 98vh;
+    background-position: center top;
+    color: white;
+    text-align: center;
+}
+
+.banniere2 h1 {
+    text-align: left;
+    color: rgb(212, 212, 212);
+    padding: 35% 12% 0% 8%;
+    font-style: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vh;
+}
+
+.banniere2 a {
+    position: relative;
+    top: 17vh;
+    color: white;
+}
+
+/*Choix d'article*/
 
 .intro {
     margin-top: 5vh;
