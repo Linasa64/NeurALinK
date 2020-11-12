@@ -127,6 +127,9 @@ header {
 .texte h1, h4{
     text-align: center;
 }
+.texte h5{
+    text-align: left;
+}
 
 .texte h3{
     margin-top: 1vh;
@@ -154,6 +157,10 @@ header {
     margin-top: 2vh;
     margin-bottom: 2vh;
     border-radius: 10% 10% 10% 10%;
+}
+.img-cote{
+    display: flex;
+    position: row ;
 }
 
 .videoYT {
