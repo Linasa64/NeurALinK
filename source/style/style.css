@@ -2,8 +2,9 @@
 
 /* Initialise la page avec les marges à 0, et définit les polices
 d'écriture qui seront utilisées*/
-*{
-    margin:0px;
+
+* {
+    margin: 0px;
     font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -14,18 +15,18 @@ la couleur, la justification du texte, la longueur,
 et sa position par rapport aux autres éléments de 
 la page (avec un z-index de 4, le menu sera toujours 
 au dessus des autres éléments de la page)*/
+
 header {
-    background-color : #31394d
-    ;
-    text-align : center;
-    width : 100%;
+    background-color: #31394d;
+    text-align: center;
+    width: 100%;
 }
 
 /*Définition des caractéristiques des boutons du header
 Couleurs, bordures, curseur qui change au survol, taille 
 et priorité par rapport aux autres éléments (z-index)*/
 
-.menu button{
+.menu button {
     background-color: #31394d;
     border: 0px;
     color: white;
@@ -36,10 +37,12 @@ et priorité par rapport aux autres éléments (z-index)*/
 }
 
 /*Changements au survol de la souris des boutons du header*/
-.menu button:hover{
+
+.menu button:hover {
     background-color: #6f82b3;
 }
-.home a{
+
+.home a {
     display: flex;
     position: relative;
     float: left;
@@ -53,11 +56,11 @@ et priorité par rapport aux autres éléments (z-index)*/
     background-position: center;
 }
 
-.home a:hover{
+.home a:hover {
     background-color: #907d4c;
 }
 
-.home a{
+.home a {
     display: flex;
     position: relative;
     float: left;
@@ -71,7 +74,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     background-position: center;
 }
 
-.home a:hover{
+.home a:hover {
     background-color: #907d4c;
 }
 
@@ -79,22 +82,21 @@ et priorité par rapport aux autres éléments (z-index)*/
 
 /*Définition de la taille du conteneur de la vidéo*/
 
-.cerveau{
+.cerveau {
     height: 100vh;
     color: white;
 }
 
-
-.cerveau a{
+.cerveau a {
     position: relative;
     top: 90vh;
     color: white;
     background-color: #194c53;
 }
 
-#videoDiv { 
-    margin:auto; 
-    display:block; 
+#videoDiv {
+    margin: auto;
+    display: block;
     position: relative;
     margin-top: 0;
     margin-left: 0;
@@ -103,7 +105,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     overflow: hidden;
 }
 
-#video{
+#video {
     min-width: 100%;
     min-height: 94.5%;
     width: auto;
@@ -115,7 +117,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     z-index: 0;
 }
 
-.presentation{
+.presentation {
     display: flex;
     height: 100vh;
     align-content: center;
@@ -126,14 +128,15 @@ et priorité par rapport aux autres éléments (z-index)*/
     justify-content: center;
     text-align: center;
 }
-.presentation h1{
+
+.presentation h1 {
     font: bold italic large serif;
     font-size: 7vw;
     display: block;
     position: relative;
 }
 
-.presentation p{
+.presentation p {
     display: flex;
     position: relative;
     font-size: 2vw;
@@ -142,13 +145,13 @@ et priorité par rapport aux autres éléments (z-index)*/
     margin-right: 4vw;
 }
 
-#problematique{
+#problematique {
     margin-top: 4vh;
     text-align: center;
     font-style: italic;
 }
 
-.categories{
+.categories {
     display: flex;
     height: 100vh;
     background-size: 100vw, 98vh;
@@ -157,7 +160,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     background-color: rgb(225, 226, 238);
 }
 
-.categories a{
+.categories a {
     position: relative;
     display: flex;
     flex-basis: 33%;
@@ -169,29 +172,29 @@ et priorité par rapport aux autres éléments (z-index)*/
     background-size: 100%;
 }
 
-.texteLiens h1{
+.texteLiens h1 {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top:245vh;
+    top: 245vh;
     color: #31394d;
     z-index: 1;
     font-size: 2vw;
 }
 
-#texte1{
+#texte1 {
     right: 77vw;
 }
 
-#texte2{
+#texte2 {
     right: 42vw;
 }
 
-#texte3{
+#texte3 {
     right: 8vw;
 }
 
-#projet{
+#projet {
     background-image: url("../img/neuraAcc.jpg");
 }
 
@@ -210,8 +213,7 @@ et priorité par rapport aux autres éléments (z-index)*/
 
 /*Partie Footer*/
 
-
-footer{
+footer {
     text-align: right;
     background-color: #31394d;
     bottom: 0;
@@ -223,14 +225,11 @@ footer{
     background-size: 8vh;
 }
 
-
-
-footer p, a{
+footer p, a {
     text-align: center;
-    color : white;
+    color: white;
 }
 
-
-.logo-iut img{ 
+.logo-iut img {
     width: 10vh;
 }

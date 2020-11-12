@@ -1,20 +1,19 @@
 /*Partie Menu*/
 
-*{
-    margin:0px;
+* {
+    margin: 0px;
     font-family: Tahoma, Geneva, sans-serif;
 }
 
 /*Partie Header*/
 
 header {
-    background-color : #31394d
-    ;
-    text-align : center;
-    width : 100%;
+    background-color: #31394d;
+    text-align: center;
+    width: 100%;
 }
 
-.menu button{
+.menu button {
     background-color: #31394d;
     border: 0px;
     color: white;
@@ -24,11 +23,11 @@ header {
     width: 24%;
 }
 
-.menu button:hover{
+.menu button:hover {
     background-color: #6f82b3;
 }
 
-.home a{
+.home a {
     display: flex;
     position: relative;
     float: left;
@@ -42,17 +41,17 @@ header {
     background-position: center;
 }
 
-.home a:hover{
+.home a:hover {
     background-color: #907d4c;
 }
 
 /*Partie contenu*/
 
-main{
+main {
     background-color: #ffffff;
 }
 
-.banniere{
+.banniere {
     height: 100vh;
     background-image: url("../img/futur.jpg");
     background-repeat: no-repeat;
@@ -61,7 +60,8 @@ main{
     color: white;
     text-align: center;
 }
-.banniere h1{
+
+.banniere h1 {
     text-align: left;
     color: rgb(212, 212, 212);
     padding: 35% 12% 0% 8%;
@@ -70,13 +70,11 @@ main{
     font-size: 8vh;
 }
 
-.banniere a{
+.banniere a {
     position: relative;
     top: 17vh;
     color: white;
 }
-
-
 
 .article {
     margin-top: 5vh;
@@ -86,40 +84,35 @@ main{
     display: flex;
     flex-direction: row;
     color: rgb(0, 0, 0);
-    text-align: left;   
+    text-align: left;
     text-decoration: none;
     padding: 0 2% 0 0;
-    
-  }
+}
 
-
-.article p{
+.article p {
     text-decoration: none;
     font-size: 2vh;
 }
-.article:hover{
+
+.article:hover {
     background-color: rgb(216, 216, 216);
     text-decoration: underline rgb(216, 216, 216);
-    
 }
-.article img{
+
+.article img {
     width: 20vw;
     margin-right: 5vw;
     margin-bottom: -0.8%;
 }
 
-.article h1{
+.article h1 {
     text-align: left;
     font-size: 5vh;
-    
 }
-
-
 
 /*Partie Footer*/
 
-
-footer{
+footer {
     text-align: right;
     background-color: #31394d;
     bottom: 0;
@@ -131,15 +124,11 @@ footer{
     background-size: 8vh;
 }
 
-
-
-footer p, a{
+footer p, a {
     text-align: center;
-    color : white;
+    color: white;
 }
 
-
-.logo-iut img{ 
+.logo-iut img {
     width: 10vh;
-    
 }

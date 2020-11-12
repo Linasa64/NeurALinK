@@ -1,17 +1,17 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     font-family: Tahoma, Geneva, sans-serif;
 }
 
 header {
     position: fixed;
-    background-color : #31394d;
-    text-align : center;
-    width : 100%;
+    background-color: #31394d;
+    text-align: center;
+    width: 100%;
     z-index: 4;
 }
 
-.home a{
+.home a {
     display: flex;
     position: relative;
     float: left;
@@ -26,12 +26,11 @@ header {
     z-index: 4;
 }
 
-
-.home a:hover{
+.home a:hover {
     background-color: #907d4c;
 }
 
-.menu button{
+.menu button {
     background-color: #31394d;
     border: 0px;
     color: white;
@@ -43,20 +42,21 @@ header {
     z-index: 4;
 }
 
-.menu button:hover{
+.menu button:hover {
     background-color: #6f82b3;
     z-index: 4;
 }
+
 /* Partie à propos ! */
 
 .corpsapropos {
-    display : flex;
+    display: flex;
 }
 
 .a {
     flex: 1;
     position: relative;
-    display:flex;
+    display: flex;
     margin-top: 9vh;
     margin-bottom: 3vh;
     margin-left: 10vh;
@@ -74,34 +74,33 @@ header {
     text-align: justify;
 }
 
-
 .a ul {
     position: relative;
     margin-left: 3vw;
     margin-bottom: 3vh;
 }
 
-.a h1{
+.a h1 {
     margin-bottom: 3vh;
     text-align: center;
     width: 100%;
 }
 
-.a h3{
+.a h3 {
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
 
-.leGroupe{
+.leGroupe {
     margin-top: 3vh;
-    margin-left:5%;
+    margin-left: 5%;
 }
 
-.trombino{
+.trombino {
     width: 18vw;
 }
 
-.trombino img{
+.trombino img {
     width: 18vw;
     min-width: 300px;
 }
@@ -119,12 +118,9 @@ header {
     padding-right: 5px;
 }
 
-
-
 /*Partie Footer*/
 
-
-footer{
+footer {
     text-align: right;
     background-color: #31394d;
     bottom: 0;
@@ -136,14 +132,11 @@ footer{
     background-size: 8vh;
 }
 
-
-
-footer p, a{
+footer p, a {
     text-align: center;
-    color : white;
+    color: white;
 }
 
-
-.logo-iut img{ 
+.logo-iut img {
     width: 10vh;
 }
