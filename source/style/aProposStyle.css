@@ -46,6 +46,25 @@ header {
     background-color: #6f82b3;
     z-index: 4;
 }
+/*Fil d'ariane*/
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb ul {
+    display: flex;
+    list-style: none;
+}
+    
+.breadcrumb li::before {
+    content: "→";
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+}
 
 /* Partie à propos ! */
 

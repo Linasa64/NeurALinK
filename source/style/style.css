@@ -199,11 +199,11 @@ et priorité par rapport aux autres éléments (z-index)*/
 }
 
 #lies {
-    background-image: url("../img/index2.png");
+    background-image: url("../img/index2.jpg");
 }
 
 #futur {
-    background-image: url("../img/index3.png");
+    background-image: url("../img/index3.jpg");
 }
 
 #projet:hover, #lies:hover, #futur:hover {
