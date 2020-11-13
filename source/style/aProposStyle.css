@@ -1,9 +1,12 @@
 /*Style global*/
+
 * {
     margin: 0px;
     font-family: Tahoma, Geneva, sans-serif;
 }
+
 /*Header / Menu*/
+
 header {
     position: fixed;
     background-color: #31394d;
@@ -11,7 +14,9 @@ header {
     width: 100%;
     z-index: 4;
 }
+
 /*menu*/
+
 #menu {
     list-style: none;
     margin: 0;
@@ -23,37 +28,34 @@ header {
     position: relative;
     float: center;
 }
+
 #menu li {
     display: inline;
-    text-align: center ;
+    text-align: center;
     background-color: #31394d;
     border: 0px;
     color: white;
     cursor: pointer;
     float: center;
-    
 }
 
 #menu li a {
-    display: block ;
+    display: block;
     background-color: #31394d;
-    color: #fff ;
-    font: 1em "Trebuchet MS",Arial,sans-serif ;
-    line-height: 1em ;
-    text-align: center ;
-    text-decoration: none ;
+    color: #fff;
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
     font-size: 2vh;
     width: 23.71vw;
     height: 4vh;
     padding-top: 2vh;
+}
 
-  }
-
-
-#menu li a:hover, #menu li a:focus, #menu li a:active{
-      background-color: #6f82b3;
-  }
-
+#menu li a:hover, #menu li a:focus, #menu li a:active {
+    background-color: #6f82b3;
+}
 
 #menu .home a {
     display: flex;
@@ -68,6 +70,7 @@ header {
     height: 4vh;
     background-position: center;
 }
+
 #menu .home a:hover {
     background-color: #907d4c;
 }
@@ -85,11 +88,11 @@ header {
     display: flex;
     list-style: none;
 }
-    
+
 .breadcrumb li::before {
     content: "→";
 }
-    
+
 .breadcrumb li:first-child::before {
     content: "";
 }
