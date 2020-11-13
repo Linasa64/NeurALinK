@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: Tahoma, Geneva, sans-serif;
 }
-
+/*Header / Menu*/
 header {
     position: fixed;
     background-color: #31394d;
@@ -11,7 +11,7 @@ header {
     width: 100%;
     z-index: 4;
 }
-
+/*Bouton accueil*/
 .home a {
     display: flex;
     position: relative;
@@ -26,11 +26,11 @@ header {
     background-position: center;
     z-index: 4;
 }
-
+/*Accueil survol de la souris*/
 .home a:hover {
     background-color: #907d4c;
 }
-
+/*Menu style des bouton*/
 .menu button {
     background-color: #31394d;
     border: 0px;
@@ -42,7 +42,7 @@ header {
     height: 6.2vh;
     z-index: 4;
 }
-
+/*Menu style des bouton au survol de la souris*/
 .menu button:hover {
     background-color: #6f82b3;
     z-index: 4;
