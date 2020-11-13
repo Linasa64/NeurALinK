@@ -13,6 +13,7 @@ header {
     width: 100%;
 }
 
+/*menu*/
 .menu button {
     background-color: #31394d;
     border: 0px;
@@ -26,6 +27,8 @@ header {
 .menu button:hover {
     background-color: #6f82b3;
 }
+
+/*bouton accueil*/
 
 .home a {
     display: flex;
@@ -171,7 +174,7 @@ main {
 }
     
     
-/*Choix d'article*/
+/*Partie Choix d'article*/
 
 .article {
     margin-top: 5vh;
