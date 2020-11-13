@@ -11,42 +11,67 @@ header {
     width: 100%;
     z-index: 4;
 }
-/*Bouton accueil*/
-.home a {
+/*menu*/
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    float: center;
+}
+#menu li {
+    display: inline;
+    text-align: center ;
+    background-color: #31394d;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    float: center;
+    
+}
+
+#menu li a {
+    display: block ;
+    background-color: #31394d;
+    color: #fff ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+    font-size: 2vh;
+    width: 23.71vw;
+    height: 4vh;
+    padding-top: 2vh;
+
+  }
+
+
+#menu li a:hover, #menu li a:focus, #menu li a:active{
+      background-color: #6f82b3;
+  }
+
+
+#menu .home a {
     display: flex;
     position: relative;
     float: left;
     background-color: #cec6b2;
-    background-image: url("../img/homeLogo.png");
-    background-size: 6.3vh;
+    background-image: url(../img/homeLogo.png);
+    background-size: 5vh;
     background-repeat: no-repeat;
     filter: invert(100%);
-    width: 4%;
-    height: 6.2vh;
+    width: 4vw;
+    height: 4vh;
     background-position: center;
-    z-index: 4;
 }
-/*Accueil survol de la souris*/
-.home a:hover {
+#menu .home a:hover {
     background-color: #907d4c;
 }
-/*Menu style des bouton*/
-.menu button {
-    background-color: #31394d;
-    border: 0px;
-    color: white;
-    padding: 2vh 24px;
-    cursor: pointer;
-    float: left;
-    width: 24%;
-    height: 6.2vh;
-    z-index: 4;
-}
-/*Menu style des bouton au survol de la souris*/
-.menu button:hover {
-    background-color: #6f82b3;
-    z-index: 4;
-}
+
 /*Fil d'ariane*/
 
 .breadcrumb a {
