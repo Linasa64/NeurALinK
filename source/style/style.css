@@ -19,6 +19,7 @@ header {
 }
 
 /*menu*/
+
 #menu {
     list-style: none;
     margin: 0;
@@ -30,32 +31,30 @@ header {
     position: relative;
     float: center;
 }
+
 #menu li {
     display: inline;
-    text-align: center ;
+    text-align: center;
     background-color: #31394d;
     border: 0px;
     color: white;
     cursor: pointer;
     float: center;
-    
 }
 
 #menu li a {
-    display: block ;
+    display: block;
     background-color: #31394d;
-    color: #fff ;
-    font: 1em "Trebuchet MS",Arial,sans-serif ;
-    line-height: 1em ;
-    text-align: center ;
-    text-decoration: none ;
+    color: #fff;
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
     font-size: 2vh;
     width: 23.71vw;
     height: 4vh;
     padding-top: 2vh;
-
-  }
-
+}
 
 #menu li a:hover, #menu li a:focus, #menu li a:active{
       background-color: #6f82b3;
@@ -74,6 +73,7 @@ header {
     height: 4vh;
     background-position: center;
 }
+
 #menu .home a:hover {
     background-color: #907d4c;
 }
@@ -81,18 +81,23 @@ header {
 /*Partie contenu*/
 
 /*banierre / taille du conteneur de la vidéo*/
+
 .banierre {
     height: 100vh;
     color: white;
 }
+
 /*Style du lien de la baniere*/
+
 .banierre a {
     position: relative;
     top: 90vh;
     color: white;
     background-color: #194c53;
 }
+
 /*Partie vidéo*/
+
 #videoDiv {
     margin: auto;
     display: block;
@@ -118,6 +123,7 @@ header {
 }
 
 /*Partie Presentation*/
+
 .presentation {
     display: flex;
     height: 100vh;
@@ -130,14 +136,18 @@ header {
     justify-content: center;
     text-align: center;
 }
+
 /*Style du titre*/
+
 .presentation h1 {
     font: bold italic large serif;
     font-size: 7vw;
     display: block;
     position: relative;
 }
+
 /*Style du texte*/
+
 .presentation p {
     display: flex;
     position: relative;
@@ -152,9 +162,11 @@ header {
     text-align: center;
     font-style: italic;
 }
+
 /*Partie catégorie*/
 
 /*Style global*/
+
 .categories {
     display: flex;
     height: 100vh;
@@ -163,7 +175,9 @@ header {
     justify-content: space-around;
     background-color: rgb(225, 226, 238);
 }
+
 /*Style du lien*/
+
 .categories a {
     position: relative;
     display: flex;
@@ -174,7 +188,9 @@ header {
     color: transparent;
     background-size: 100%;
 }
+
 /*style du texte sur les bouton de catégorie*/
+
 .texteLiens h1 {
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +202,7 @@ header {
 }
 
 /*taille du texte sur les bouton de catégorie*/
+
 #texte1 {
     right: 77vw;
 }
@@ -199,6 +216,7 @@ header {
 }
 
 /*Image du choix de catégorie*/
+
 #projet {
     background-image: url("../img/neuraAcc.jpg");
 }
@@ -210,7 +228,6 @@ header {
 #futur {
     background-image: url("../img/index3.jpg");
 }
-
 
 /*:hover / survol de la souris*/
 
@@ -224,7 +241,6 @@ header {
     padding-bottom: 3vh;
     background-color: rgb(225, 226, 238);
 }
-
 
 #ancre {
     color: black;

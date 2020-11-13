@@ -15,6 +15,7 @@ header {
 }
 
 /*menu*/
+
 #menu {
     list-style: none;
     margin: 0;
@@ -26,37 +27,34 @@ header {
     position: relative;
     float: center;
 }
+
 #menu li {
     display: inline;
-    text-align: center ;
+    text-align: center;
     background-color: #31394d;
     border: 0px;
     color: white;
     cursor: pointer;
     float: center;
-    
 }
 
 #menu li a {
-    display: block ;
+    display: block;
     background-color: #31394d;
-    color: #fff ;
-    font: 1em "Trebuchet MS",Arial,sans-serif ;
-    line-height: 1em ;
-    text-align: center ;
-    text-decoration: none ;
+    color: #fff;
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
     font-size: 2vh;
     width: 23.71vw;
     height: 4vh;
     padding-top: 2vh;
+}
 
-  }
-
-
-#menu li a:hover, #menu li a:focus, #menu li a:active{
-      background-color: #6f82b3;
-  }
-
+#menu li a:hover, #menu li a:focus, #menu li a:active {
+    background-color: #6f82b3;
+}
 
 #menu .home a {
     display: flex;
@@ -71,6 +69,7 @@ header {
     height: 4vh;
     background-position: center;
 }
+
 #menu .home a:hover {
     background-color: #907d4c;
 }
@@ -100,7 +99,9 @@ header {
 .side h3 {
     text-align: center;
 }
+
 /*image article*/
+
 #art1, #ethique, #appliDirectes, #neura, #brasBio, #drone, #inegalite {
     display: inline-block;
     margin-top: 2vh;
@@ -113,7 +114,9 @@ header {
     padding-bottom: 4vw;
     margin-left: 1%;
 }
+
 /*texte article*/
+
 #art1text, #art2text, #art3text {
     color: black;
     text-decoration: none;
@@ -125,7 +128,9 @@ header {
     filter: opacity(70%);
     transition: 7ms;
 }
+
 /*image de présentation de l'article*/
+
 #art1 {
     background-image: url("../img/dataSecurity.jpg");
 }
@@ -153,7 +158,9 @@ header {
 #inegalite {
     background-image: url("../img/futur1.jpg");
 }
+
 /*Partie texte*/
+
 .texte {
     width: 100%;
     background-color: rgb(234, 234, 241);
@@ -215,7 +222,9 @@ header {
     display: flex;
     position: row;
 }
+
 /*integration vidéo*/
+
 .videoYT {
     margin-top: 2%;
     margin-left: 10%;
@@ -226,7 +235,9 @@ header {
     width: 60vw;
     height: 70vh;
 }
+
 /*les titres*/
+
 .titre {
     font-weight: bold;
     font-size: 300%;
@@ -259,26 +270,24 @@ header {
     display: flex;
     list-style: none;
 }
-    
+
 .breadcrumb li::before {
     content: "→";
 }
-    
+
 .breadcrumb li:first-child::before {
     content: "";
 }
+
 /*Source*/
 
 .source {
     background-color: rgb(192, 192, 192);
-    
-    
 }
 
-.source a{
+.source a {
     background-color: rgb(192, 192, 192);
     padding-left: 5%;
-    
 }
 
 /*tableau*/
