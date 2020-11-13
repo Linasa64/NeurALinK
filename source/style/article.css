@@ -8,45 +8,70 @@
 /*Partie Header*/
 
 header {
-    position: fixed;
     background-color: #31394d;
     text-align: center;
     width: 100%;
-    z-index: 4;
+    z-index: 1;
 }
-/*Menu*/
-.menu button {
+
+/*menu*/
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    float: center;
+}
+#menu li {
+    display: inline;
+    text-align: center ;
     background-color: #31394d;
     border: 0px;
     color: white;
-    padding: 2vh 24px;
     cursor: pointer;
-    float: left;
-    width: 24%;
-    z-index: 4;
+    float: center;
+    
 }
 
-.menu button:hover {
-    background-color: #6f82b3;
-    z-index: 4;
-}
+#menu li a {
+    display: block ;
+    background-color: #31394d;
+    color: #fff ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+    font-size: 2vh;
+    width: 23.71vw;
+    height: 4vh;
+    padding-top: 2vh;
 
-.home a {
+  }
+
+
+#menu li a:hover, #menu li a:focus, #menu li a:active{
+      background-color: #6f82b3;
+  }
+
+
+#menu .home a {
     display: flex;
     position: relative;
     float: left;
     background-color: #cec6b2;
     background-image: url(../img/homeLogo.png);
-    background-size: 6.3vh;
+    background-size: 5vh;
     background-repeat: no-repeat;
     filter: invert(100%);
-    width: 4%;
-    height: 6.2vh;
+    width: 4vw;
+    height: 4vh;
     background-position: center;
-    z-index: 4;
 }
-
-.home a:hover {
+#menu .home a:hover {
     background-color: #907d4c;
 }
 
