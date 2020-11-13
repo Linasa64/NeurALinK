@@ -56,9 +56,9 @@ header {
     padding-top: 2vh;
 }
 
-#menu li a:hover, #menu li a:focus, #menu li a:active{
-      background-color: #6f82b3;
-  }
+#menu li a:hover, #menu li a:focus, #menu li a:active {
+    background-color: #6f82b3;
+}
 
 #menu .home a {
     display: flex;
@@ -236,7 +236,7 @@ header {
     transition: .3s;
 }
 
-.ancre{
+.ancre {
     padding-top: 3vh;
     padding-bottom: 3vh;
     background-color: rgb(225, 226, 238);
