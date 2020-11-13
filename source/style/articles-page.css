@@ -129,8 +129,8 @@ main {
     color: white;
 }
 
-/*Choix d'article*/
 
+/*Intro*/
 .intro {
     margin-top: 5vh;
     margin-left: 5vw;
@@ -149,6 +149,29 @@ main {
 .intro p {
     margin-left: 2%;
 }
+
+/*Fil d'ariane*/
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb ul {
+    display: flex;
+    list-style: none;
+}
+    
+.breadcrumb li::before {
+    content: "→";
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+}
+    
+    
+/*Choix d'article*/
 
 .article {
     margin-top: 5vh;
