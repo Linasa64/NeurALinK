@@ -14,7 +14,7 @@ header {
     width: 100%;
     z-index: 4;
 }
-
+/*Menu*/
 .menu button {
     background-color: #31394d;
     border: 0px;
@@ -50,7 +50,7 @@ header {
     background-color: #907d4c;
 }
 
-/*partie body*/
+/*partie main*/
 
 .container {
     margin-top: 5vh;
@@ -75,7 +75,7 @@ header {
 .side h3 {
     text-align: center;
 }
-
+/*image article*/
 #art1, #ethique, #appliDirectes, #neura, #brasBio, #drone, #inegalite {
     display: inline-block;
     margin-top: 2vh;
@@ -88,7 +88,7 @@ header {
     padding-bottom: 4vw;
     margin-left: 1%;
 }
-
+/*texte article*/
 #art1text, #art2text, #art3text {
     color: black;
     text-decoration: none;
@@ -100,7 +100,7 @@ header {
     filter: opacity(70%);
     transition: 7ms;
 }
-
+/*image de présentation de l'article*/
 #art1 {
     background-image: url("../img/dataSecurity.jpg");
 }
@@ -128,7 +128,7 @@ header {
 #inegalite {
     background-image: url("../img/futur1.jpg");
 }
-
+/*Partie texte*/
 .texte {
     width: 100%;
     background-color: rgb(234, 234, 241);
@@ -190,7 +190,7 @@ header {
     display: flex;
     position: row;
 }
-
+/*integration vidéo*/
 .videoYT {
     margin-top: 2%;
     margin-left: 10%;
@@ -201,7 +201,7 @@ header {
     width: 60vw;
     height: 70vh;
 }
-
+/*les titres*/
 .titre {
     font-weight: bold;
     font-size: 300%;
@@ -254,6 +254,8 @@ header {
     padding-left: 5%;
     
 }
+
+/*tableau*/
 
 table {
     table-layout: fixed;

@@ -10,11 +10,7 @@ d'écriture qui seront utilisées*/
 
 /*Partie Header*/
 
-/*Définition des caractéristiques du header, avec:
-la couleur, la justification du texte, la longueur, 
-et sa position par rapport aux autres éléments de 
-la page (avec un z-index de 4, le menu sera toujours 
-au dessus des autres éléments de la page)*/
+/*Header style*/
 
 header {
     background-color: #31394d;
@@ -22,9 +18,7 @@ header {
     width: 100%;
 }
 
-/*Définition des caractéristiques des boutons du header
-Couleurs, bordures, curseur qui change au survol, taille 
-et priorité par rapport aux autres éléments (z-index)*/
+/*Menu style des bouton*/
 
 .menu button {
     background-color: #31394d;
@@ -36,12 +30,13 @@ et priorité par rapport aux autres éléments (z-index)*/
     width: 24%;
 }
 
-/*Changements au survol de la souris des boutons du header*/
+/*Changements au survol de la souris des boutons du menu*/
 
 .menu button:hover {
     background-color: #6f82b3;
 }
 
+/*style du lien accueil*/
 .home a {
     display: flex;
     position: relative;
@@ -55,11 +50,11 @@ et priorité par rapport aux autres éléments (z-index)*/
     height: 6.2vh;
     background-position: center;
 }
-
+/*style du lien accueil au survol de la souris*/
 .home a:hover {
     background-color: #907d4c;
 }
-
+/*style des lien du menu*/
 .home a {
     display: flex;
     position: relative;
@@ -73,27 +68,26 @@ et priorité par rapport aux autres éléments (z-index)*/
     height: 6.2vh;
     background-position: center;
 }
-
+/*style des lien du menu au survol de la souris*/
 .home a:hover {
     background-color: #907d4c;
 }
 
 /*Partie contenu*/
 
-/*Définition de la taille du conteneur de la vidéo*/
-
-.cerveau {
+/*banierre / taille du conteneur de la vidéo*/
+.banierre {
     height: 100vh;
     color: white;
 }
-
-.cerveau a {
+/*Style du lien de la baniere*/
+.banierre a {
     position: relative;
     top: 90vh;
     color: white;
     background-color: #194c53;
 }
-
+/*Partie vidéo*/
 #videoDiv {
     margin: auto;
     display: block;
@@ -117,6 +111,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     z-index: 0;
 }
 
+/*Partie Presentation*/
 .presentation {
     display: flex;
     height: 100vh;
@@ -128,14 +123,14 @@ et priorité par rapport aux autres éléments (z-index)*/
     justify-content: center;
     text-align: center;
 }
-
+/*Style du titre*/
 .presentation h1 {
     font: bold italic large serif;
     font-size: 7vw;
     display: block;
     position: relative;
 }
-
+/*Style du texte*/
 .presentation p {
     display: flex;
     position: relative;
@@ -150,7 +145,9 @@ et priorité par rapport aux autres éléments (z-index)*/
     text-align: center;
     font-style: italic;
 }
+/*Partie catégorie*/
 
+/*Style global*/
 .categories {
     display: flex;
     height: 100vh;
@@ -159,7 +156,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     justify-content: space-around;
     background-color: rgb(225, 226, 238);
 }
-
+/*Style du lien*/
 .categories a {
     position: relative;
     display: flex;
@@ -171,7 +168,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     color: transparent;
     background-size: 100%;
 }
-
+/*style du texte sur les bouton de catégorie*/
 .texteLiens h1 {
     display: flex;
     flex-wrap: wrap;
@@ -182,6 +179,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     font-size: 2vw;
 }
 
+/*taille du texte sur les bouton de catégorie*/
 #texte1 {
     right: 77vw;
 }
@@ -194,6 +192,7 @@ et priorité par rapport aux autres éléments (z-index)*/
     right: 8vw;
 }
 
+/*Image du choix de catégorie*/
 #projet {
     background-image: url("../img/neuraAcc.jpg");
 }
@@ -205,6 +204,9 @@ et priorité par rapport aux autres éléments (z-index)*/
 #futur {
     background-image: url("../img/index3.jpg");
 }
+
+
+/*:hover / survol de la souris*/
 
 #projet:hover, #lies:hover, #futur:hover {
     filter: opacity(20%);
